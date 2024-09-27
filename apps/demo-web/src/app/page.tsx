@@ -1,4 +1,5 @@
 import styles from './page.module.css';
+import { Components } from '@tchak/handy-components';
 
 export default function Index() {
   /*
@@ -16,6 +17,8 @@ export default function Index() {
               Welcome demo-web 👋
             </h1>
           </div>
+
+          <Components />
 
           <div id="hero" className="rounded">
             <div className="text-container">
